@@ -1,26 +1,19 @@
 # Node.js
-node_modules/
-dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.env
+**/node_modules/
+**/dist/
+*.log
 
 # Python
-venv/
-__pycache__/
+**/venv/
+**/__pycache__/
 *.py[cod]
 *$py.class
+**/venv/
 .env
-.venv
-env/
-ENV/
 
 # IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # OS
 .DS_Store
